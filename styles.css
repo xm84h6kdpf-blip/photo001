@@ -46,7 +46,7 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 40px;
-    max-width: 1700px;
+    max-width: 1900px;
     margin: 0 auto;
 }
 
@@ -54,7 +54,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.homepage .site-title {
+    font-size: 7rem;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .site-title {
@@ -75,9 +81,9 @@ img {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 600px;
     gap: 0px;
-    margin-bottom: auto;
-    margin-top: auto;
-    max-width: 1700px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 1900px;
 }
 
 .collage-item {
@@ -341,7 +347,7 @@ img {
    =============================================== */
 
 .blog-content {
-    max-width: 800px;
+    max-width: none;
 }
 
 .blog-title {
@@ -359,7 +365,7 @@ img {
 
 .blog-post p {
     margin-bottom: 25px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.8;
 }
 
@@ -401,6 +407,15 @@ img {
     margin-top: auto;
     padding-top: 40px;
     font-size: 0.9rem;
+}
+
+/* Homepage footer styling */
+.homepage-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 0.75rem;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 /* Fixed footer for Albums and Blog pages */

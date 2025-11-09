@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const blogPosts = {
         '001': {
-            title: 'After Golden Hour',
+            title: 'Blog 001',
             date: '09/01/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -335,201 +335,189 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '002': {
-            title: 'Threshold Stories',
+            title: 'Blog 002',
             date: '09/02/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. The camera doesn't lie, they say, but it doesn't tell the whole truth either. Each frame is a carefully constructed fiction, a selective memory that omits more than it reveals.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600" alt="Urban photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600" alt="City scene" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Walking the same streets day after day, you start to see patterns in the chaos. The way people move through space, the rhythms of traffic lights, the shadows that dance across concrete at exactly 3:47 PM.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sometimes the best shots are the ones you almost miss, the ones you catch out of the corner of your eye while looking for something else entirely.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1000" alt="Street detail" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. The digital age has made us all photographers, but it hasn't made photography any easier. If anything, the abundance of images makes it harder to create something that matters.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Every photograph is a conversation between light and shadow, between what's revealed and what's concealed.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Architecture" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Urban detail" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. The camera sees differently than the eye, and that's both its limitation and its power.</p>
             `
         },
         '003': {
-            title: 'The Blurred Moment',
+            title: 'Blog 003',
             date: '09/03/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet. Rain on the lens creates its own kind of poetry, distorting reality into something more impressionistic, more honest somehow. The city looks different when it's wet, like it's revealing its true nature.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600" alt="Rainy street" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600" alt="Night scene" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit. There's a certain kind of magic in the mundane, in finding beauty in parking lots and chain-link fences and peeling paint. Anyone can make a sunset look beautiful, but it takes real vision to see the poetry in decay.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. I've been thinking about the ethics of street photography lately, about the responsibility we have to the people we photograph without asking.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1000" alt="Urban exploration" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Are we documenting reality or exploiting it? The answer probably depends on the intention behind the camera, the respect we bring to the moment.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. Black and white strips away the distraction of color, forces the viewer to focus on form and contrast and texture.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600" alt="B&W photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600" alt="Monochrome" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati. Sometimes it feels like a cliché, but there's a reason the masters preferred it.</p>
             `
         },
         '004': {
-            title: 'Between Shadows',
+            title: 'Blog 004',
             date: '09/04/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi. The morning light has a quality that afternoon can never match, something about the angle and the softness and the way it catches dust particles suspended in the air. Golden hour gets all the attention, but blue hour is where the real magic happens.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Morning light" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600" alt="Blue hour" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. I've been experimenting with long exposures lately, letting motion blur into abstraction. Cars become streaks of light, pedestrians become ghosts, the city transforms into something fluid and dreamlike.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus. It's a different way of seeing time, compressing minutes into a single frame, showing movement and stillness simultaneously.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=1000" alt="Long exposure" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>Quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. The thing about photography is that it's both immediate and delayed. You capture the moment instantly, but you don't really see it until later, in the editing, in the reviewing, in the slow consideration of what you actually caught.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint. Sometimes I see the shot weeks after I took it, suddenly understanding what I was trying to say without knowing I was saying it.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600" alt="Street moment" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600" alt="Captured time" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Molestiae non recusandae itaque earum rerum hic tenetur a sapiente delectus. The camera is just a tool, but in the right hands it becomes a way of thinking, a way of seeing, a way of being in the world.</p>
             `
         },
         '005': {
-            title: 'Urban Geometry',
+            title: 'Blog 005',
             date: '09/05/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. There's something hypnotic about industrial landscapes, all those geometric shapes and harsh angles and unexpected pockets of beauty in places designed purely for function. Warehouses, factories, shipping containers—spaces that were never meant to be photographed but somehow demand it.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600" alt="Industrial" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600" alt="Urban geometry" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. I've been thinking about negative space lately, about what's not in the frame being as important as what is. Every photograph is as much about exclusion as inclusion, about what you choose to leave out.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. The edges of the frame are where the magic happens, where the viewer's imagination takes over and completes the story you've started.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1000" alt="Minimal composition" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores. Digital photography has made me lazy in some ways, more careful in others. The ability to take thousands of shots means I do, but it also means I'm more willing to experiment, to try things I'd never waste film on.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Sometimes I miss the discipline of film, the way it forced you to think before you clicked, to be more intentional about every frame.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600" alt="Film aesthetic" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Digital capture" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. But there's no going back, only forward, finding new ways to bring that same intentionality to digital shooting.</p>
             `
         },
         '006': {
-            title: 'Windows in Time',
+            title: 'Blog 006',
             date: '09/06/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam. Weather is a photographer's best friend and worst enemy. Rain, fog, snow—they all create atmosphere, mood, visual interest. But they also destroy equipment, obscure details, make everything more difficult. The best conditions for photography are often the worst conditions for being outside.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600" alt="Fog" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600" alt="Weather" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate. I've been working on a series about reflections lately, about how the world doubles and distorts in puddles and windows and polished surfaces. It's like finding a parallel universe right here in the ordinary world.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. The reflected world is often more interesting than the real one, more abstract, more open to interpretation.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Reflections" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. The hardest part of photography isn't taking the pictures, it's editing them down. For every shot I share, there are a hundred I delete, a thousand I never even review. Learning what to keep is harder than learning what to shoot.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>Corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident. It's a muscle you have to develop, the ability to be ruthlessly critical of your own work while still maintaining the confidence to create more.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600" alt="Selection process" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Editing" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Kill your darlings, they say, and it's true in photography as much as in writing.</p>
             `
         },
         '007': {
-            title: 'Edges of Light',
+            title: 'Blog 007',
             date: '09/07/2025',
             content: `
-                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis. Nighttime photography opens up a completely different world, where artificial light becomes the subject as much as anything it illuminates. Neon signs, streetlights, car headlights, the glow from windows—each source creates its own color temperature, its own mood, its own story.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600" alt="Night lights" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=600" alt="Urban night" class="blog-img">
                 </div>
 
-                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+                <p>Est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. The city at night is a different beast than the city during the day. It's more honest somehow, stripped of its daytime pretenses, revealing its true character in the interplay of light and shadow.</p>
 
-                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+                <p>Omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis. I've been thinking about the relationship between photography and memory, about how every photograph is both a preservation and a betrayal of the original moment.</p>
 
                 <div class="blog-images-single">
-                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=1000" alt="Memory and moment" class="blog-img">
                 </div>
 
-                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+                <p>Aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. We remember the photograph, not the moment. The image replaces the reality, becomes more real than the thing it represents. It's a strange kind of power, and a strange kind of responsibility.</p>
 
-                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
-
-                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+                <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur. Maybe that's why I keep shooting, keep trying to capture something true even knowing it's impossible. The attempt is the point, not the success.</p>
 
                 <div class="blog-images-row">
-                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600" alt="Truth in images" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=600" alt="Reality captured" class="blog-img">
                 </div>
 
-                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+                <p>Aut perferendis doloribus asperiores repellat. Nam libero tempore, cum soluta nobis est eligendi optio. The camera lies, but it tells beautiful lies, and sometimes that's enough.</p>
             `
         }
     };
