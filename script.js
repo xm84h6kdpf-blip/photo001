@@ -297,12 +297,253 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
     // ===============================================
+    // BLOG POST DATA
+    // ===============================================
+
+    const blogPosts = {
+        '001': {
+            title: 'Blog 001',
+            date: '09/01/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '002': {
+            title: 'Blog 002',
+            date: '09/02/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '003': {
+            title: 'Blog 003',
+            date: '09/03/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '004': {
+            title: 'Blog 004',
+            date: '09/04/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '005': {
+            title: 'Blog 005',
+            date: '09/05/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '006': {
+            title: 'Blog 006',
+            date: '09/06/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        },
+        '007': {
+            title: 'Blog 007',
+            date: '09/07/2025',
+            content: `
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            `
+        }
+    };
+
+    // ===============================================
     // BLOG POST NAVIGATION
     // ===============================================
-    
+
     const currentPost = urlParams.get('post') || '001';
-    
+
     if (document.querySelector('.blog-page')) {
+        // Load blog post content
+        loadBlogPost(currentPost);
+
         // Set active state on blog links
         document.querySelectorAll('.blog-link').forEach(link => {
             link.classList.remove('active');
@@ -310,18 +551,49 @@ document.addEventListener('DOMContentLoaded', function() {
                 link.classList.add('active');
             }
         });
-        
+
         updateBlogNavigation(currentPost);
     }
-    
+
+    function loadBlogPost(postId) {
+        const post = blogPosts[postId];
+        if (!post) return;
+
+        const blogTitle = document.querySelector('.blog-title');
+        const blogDate = document.querySelector('.blog-date');
+        const blogContent = document.querySelector('.blog-post');
+
+        if (blogTitle) {
+            blogTitle.textContent = post.title;
+        }
+
+        if (blogDate) {
+            blogDate.textContent = post.date;
+        }
+
+        if (blogContent) {
+            blogContent.innerHTML = post.content;
+
+            // Re-attach lightbox listeners to newly loaded images
+            const blogImages = blogContent.querySelectorAll('.blog-img');
+            currentImages = [];
+            blogImages.forEach((img, index) => {
+                currentImages.push(img.src);
+                img.addEventListener('click', function() {
+                    openLightbox(index);
+                });
+            });
+        }
+    }
+
     function updateBlogNavigation(currentPost) {
         const postNumber = parseInt(currentPost);
         const prevNumber = String(Math.max(1, postNumber - 1)).padStart(3, '0');
         const nextNumber = String(Math.min(7, postNumber + 1)).padStart(3, '0');
-        
+
         const prevPost = document.getElementById('prevPost');
         const nextPost = document.getElementById('nextPost');
-        
+
         if (prevPost) {
             if (postNumber === 1) {
                 prevPost.style.visibility = 'hidden';
@@ -329,7 +601,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 prevPost.href = `blog.html?post=${prevNumber}`;
             }
         }
-        
+
         if (nextPost) {
             if (postNumber === 7) {
                 nextPost.style.visibility = 'hidden';
