@@ -46,7 +46,7 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 40px;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -77,7 +77,7 @@ img {
     gap: 0px;
     margin-bottom: auto;
     margin-top: auto;
-    max-width: 1400px;
+    max-width: 1500px;
 }
 
 .collage-item {
