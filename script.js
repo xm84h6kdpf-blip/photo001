@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const blogPosts = {
         '001': {
-            title: 'Blog 001',
+            title: 'After Golden Hour',
             date: '09/01/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '002': {
-            title: 'Blog 002',
+            title: 'Threshold Stories',
             date: '09/02/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '003': {
-            title: 'Blog 003',
+            title: 'The Blurred Moment',
             date: '09/03/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -401,7 +401,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '004': {
-            title: 'Blog 004',
+            title: 'Between Shadows',
             date: '09/04/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -434,7 +434,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '005': {
-            title: 'Blog 005',
+            title: 'Urban Geometry',
             date: '09/05/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -467,7 +467,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '006': {
-            title: 'Blog 006',
+            title: 'Windows in Time',
             date: '09/06/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
@@ -500,7 +500,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `
         },
         '007': {
-            title: 'Blog 007',
+            title: 'Edges of Light',
             date: '09/07/2025',
             content: `
                 <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
