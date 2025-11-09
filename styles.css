@@ -46,6 +46,7 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 40px;
+    padding-top: 140px;
     max-width: 1900px;
     margin: 0 auto;
 }
@@ -53,8 +54,8 @@ img {
 .homepage-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+    align-items: flex-end;
+    margin-bottom: 5px;
 }
 
 .homepage .site-title {
@@ -79,10 +80,10 @@ img {
 .hero-collage {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 600px;
+    grid-template-rows: 480px;
     gap: 0px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     max-width: 1900px;
 }
 
