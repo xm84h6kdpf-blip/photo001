@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums - Photos 001</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Albums Page -->
+    <div class="container albums-page">
+        <!-- Header -->
+        <header class="page-header">
+            <h1 class="site-title">Photos 001</h1>
+        </header>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="index.html">Home</a>
+                <a href="albums.html" class="active">Albums</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+
+            <!-- Album List -->
+            <div class="album-list">
+                <a href="albums.html?album=vancouver" class="album-link active" data-album="vancouver">Vancouver</a>
+                <a href="albums.html?album=alaska" class="album-link" data-album="alaska">Alaska</a>
+                <a href="albums.html?album=ontour" class="album-link" data-album="ontour">On Tour</a>
+                <a href="albums.html?album=street" class="album-link" data-album="street">Street</a>
+                <a href="albums.html?album=motorsports" class="album-link" data-album="motorsports">Motorsports</a>
+                <a href="albums.html?album=michigan" class="album-link" data-album="michigan">Michigan</a>
+                <a href="albums.html?album=denali" class="album-link" data-album="denali">Denali</a>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h2 class="album-title" id="albumTitle">Vancouver</h2>
+            
+            <!-- Photo Gallery -->
+            <div class="gallery" id="photoGallery">
+                <!-- Large hero image -->
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1200" alt="Vancouver architecture" class="gallery-img">
+                </div>
+                
+                <!-- Two vertical images side by side -->
+                <div class="gallery-item medium">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800" alt="Concert photography" class="gallery-img">
+                </div>
+                <div class="gallery-item medium">
+                    <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800" alt="Concert photography" class="gallery-img">
+                </div>
+                
+                <!-- Large horizontal image -->
+                <div class="gallery-item wide">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200" alt="Vancouver street" class="gallery-img">
+                </div>
+            </div>
+
+            <!-- Album Navigation -->
+            <div class="album-nav">
+                <a href="#" class="album-nav-link" id="prevAlbum">Street</a>
+                <a href="#" class="album-nav-link" id="nextAlbum">Motorsports</a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-left">
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="mailto:contact@photos001.com">Email</a>
+            </div>
+            <div class="footer-right">
+                Micah Mulock
+            </div>
+        </footer>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-nav">
+            <button class="lightbox-prev">&#10094;</button>
+            <button class="lightbox-next">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

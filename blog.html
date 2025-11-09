@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Photos 001</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Blog Page -->
+    <div class="container blog-page">
+        <!-- Header -->
+        <header class="page-header">
+            <h1 class="site-title">Photos 001</h1>
+        </header>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <a href="index.html">Home</a>
+                <a href="albums.html">Albums</a>
+                <a href="blog.html" class="active">Blog</a>
+            </nav>
+
+            <!-- Blog Post List -->
+            <div class="blog-list">
+                <a href="blog.html?post=001" class="blog-link active" data-post="001">Blog 001</a>
+                <a href="blog.html?post=002" class="blog-link" data-post="002">Blog 002</a>
+                <a href="blog.html?post=003" class="blog-link" data-post="003">Blog 003</a>
+                <a href="blog.html?post=004" class="blog-link" data-post="004">Blog 004</a>
+                <a href="blog.html?post=005" class="blog-link" data-post="005">Blog 005</a>
+                <a href="blog.html?post=006" class="blog-link" data-post="006">Blog 006</a>
+                <a href="blog.html?post=007" class="blog-link" data-post="007">Blog 007</a>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content blog-content">
+            <h2 class="blog-title">Blog 001</h2>
+            <p class="blog-date">09/01/2025</p>
+            
+            <div class="blog-post">
+                <p>The light was all wrong but somehow that made it right, you know? That golden hour everyone talks about had already slipped away into the bruised purple of almost-night, and I was with my camera anyway, clicking away at nothing in particular. The way the streetlamp caught the edge of that building, how it carved shadows into geometry I'd walked past a thousand times without seeing.</p>
+
+                <!-- Inline images - two side by side -->
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street photography" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban scene" class="blog-img">
+                </div>
+
+                <p>Every photograph is a little lie we tell ourselves about remembering. This moment, caught, suspended, pinned like a butterfly in a collection. But the air temperature isn't there, is it? The smell of wet pavement, the sound of someone's laughter three streets over, the ache in your feet from standing too long—all gone, distilled down to pixels and light.</p>
+
+                <p>I keep coming back to doorways. Why doorways? Thresholds between here and there, between known and unknown. The peeling paint tells better stories than I ever could with words. Blue paint, green paint, layers of different lives all living in the same space, separated only by time and bad renovation decisions.</p>
+
+                <!-- Single large image -->
+                <div class="blog-images-single">
+                    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=1000" alt="Architecture detail" class="blog-img">
+                </div>
+
+                <p>The blurry ones are sometimes better. Fight me on this. That accidental motion blur that comes from being cold, into a ghost, into a question mark, into the feeling of a moment rather than the documentary proof of it.</p>
+
+                <p>The concrete was cracked in that particular way that only decades of freeze-thaw cycles can accomplish. Like a spiderweb spun out from the center like someone dropped the whole world and it shattered just a little bit. You captured it in an awkward moment, didn't you? Not staged down like some sort of municipal survey documentation, but tilted, diagonal, making the viewer feel slightly off-balance, slightly seasick. Good. Comfort is overrated in photography.</p>
+
+                <p>And that series with the windows—god, the windows. Seventeen shots of the same window at different times of day and somehow they're seventeen completely different windows. Morning light makes it look hopeful, like someone's about to lean out and call you in for breakfast. Afternoon turns it into a cyclops eye, glaring, judgmental. Evening and it's just sad, reflecting back the pink-orange sky like it's trying to remember what warmth felt like.</p>
+
+                <!-- Two more images side by side -->
+                <div class="blog-images-row">
+                    <img src="https://images.unsplash.com/photo-1496568816309-51d7c20e3b21?w=600" alt="Street detail" class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600" alt="Urban landscape" class="blog-img">
+                </div>
+
+                <p>The parking lot at 2 AM—empty except for three cars huddled together like they're sharing secrets. The sodium vapor lights turning everything sickly yellow-green, science fiction dystopia lighting.</p>
+            </div>
+
+            <!-- Post Navigation -->
+            <div class="blog-nav">
+                <a href="#" class="blog-nav-link" id="prevPost">Previous</a>
+                <a href="#" class="blog-nav-link" id="nextPost">Next</a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-left">
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="mailto:contact@photos001.com">Email</a>
+            </div>
+            <div class="footer-right">
+                Micah Mulock
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
